@@ -1,8 +1,7 @@
-/*
- * Globals
- */
-
-
+@font-face {
+  font-family: 'Sunda';
+  src: url('../fonts/NotoSansSundanese-Regular.ttf'); 
+}
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -27,6 +26,9 @@ body {
   max-width: 42em;
 }
 
+.font-sunda {
+  font-family: 'Sunda';
+}
 
 /*
  * Header
