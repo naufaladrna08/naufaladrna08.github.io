@@ -1,0 +1,87 @@
+*	{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	margin-top: 4em;
+	color: #222;
+	background-color: #ffffff;
+}
+
+@media (min-width: 1281px) {
+  .container {
+		width: 60%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+		width: 60%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+		width: 98%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+  
+}
+
+h5 { font-size: 24pt; margin: 1em 0 0.2em 0; }
+
+a {
+	font-size: 16pt;
+}
+
+p {
+	font-size: 16pt;
+	line-height: 1.5em;
+	margin: 12px 0;
+	text-align: justify;
+}
+
+::marker {
+  font-size: 18pt;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+table thead tr {
+  background-color: #3498db;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #3498db;
+}

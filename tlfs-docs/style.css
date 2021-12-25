@@ -1,0 +1,38 @@
+.container {
+	width: 60%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.container p {
+	text-align: justify;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.container {
+		width: 98%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (device-width: 768px) {
+	.container {
+		width: 95%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+}
+
+.container h1 {
+	line-height: 42px;
+}
+
+.container h2 {
+	line-height: 36px;
+}
