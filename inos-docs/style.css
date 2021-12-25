@@ -28,3 +28,11 @@ header {
 		box-sizing: border-box;
 	}
 }
+
+h1 {
+	line-height: 42px;
+}
+
+h1 {
+	line-height: 36px;
+}
