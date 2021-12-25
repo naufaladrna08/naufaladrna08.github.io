@@ -26,6 +26,6 @@ for ($i = 0; $i < count($files); $i++) 	{
   <h1> InOS </h1>
   <p> InOS - InKernel - InWM </p>
 
-  <a href="http://localhost:8000?p=<?= $prev ?>"> Sebelumnya </a> -
-  <a href="http://localhost:8000?p=<?= $next ?>"> Selanjutnya </a>
+  <a href="?p=<?= $prev ?>"> Sebelumnya </a> -
+  <a href="?p=<?= $next ?>"> Selanjutnya </a>
 </header>
