@@ -29,10 +29,10 @@ header {
 	}
 }
 
-h1 {
+.container h1 {
 	line-height: 42px;
 }
 
-h1 {
+.container h2 {
 	line-height: 36px;
 }
